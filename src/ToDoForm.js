@@ -13,7 +13,7 @@ function ToDoForm({addTask}) {
     }
 
     const handleKeyPress = (e) => {
-        if (e.key === 'Enter') {
+        if (e.key === 13) {
             handleSubmit()
         }
     }
